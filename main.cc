@@ -14,14 +14,16 @@ int main(){
 
 
 int main2() {
-        int a;
-        int b, c;
-        int d = 1, e = 3, f;
+    int a;
+    int b, c;
+    int d = 1, e = 3, f;
 
-        float g = 3.14f; // 'f' suffix indicates a float literal
-        double h = 2.71828; // double precision floating-point literal
-        
-        return 0;
+    float g = 3.14f; // 'f' suffix indicates a float literal
+    double h = 2.71828; // double precision floating-point literal
+
+    std::cout << 3/4 << std::endl; // Integer division, will output 0
+
+    return 0;
 
 
 }
